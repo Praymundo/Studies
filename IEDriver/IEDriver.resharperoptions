@@ -1,0 +1,25 @@
+<Configuration>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="D:\projects\Articles\AutomatingInternetExplorer\codeproject_template.html" offset="4053" line="64" column="0" />
+      <TrackedFile location="D:\projects\Articles\AutomatingInternetExplorer\src\IEDriver\IEDriverTest.cs" offset="197" line="0" column="0" />
+      <TrackedFile location="D:\projects\Articles\AutomatingInternetExplorer\src\IEDriver\MainClass.cs" offset="363" line="0" column="0" />
+      <TrackedFile location="D:\projects\Articles\AutomatingInternetExplorer\src\IEDriver\IEDriver.cs" offset="879" line="0" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@">
+      <Item value="TestGoogle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IEAutomation.IEDriver">
+      <Item value="SetInputStringValue" priority="0" />
+      <Item value="Navigate" priority="0" />
+      <Item value="ClickButton" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
