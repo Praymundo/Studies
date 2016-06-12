@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Angular Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/libs/angular.js/angular.js" type="text/javascript"></script>
+        <script src="js/Index.js" type="text/javascript"></script>
+    </head>
+    <body ng-app="MainApp">
+        <div ng-controller="Controller1">
+            <p>Selected state is : {{SelectedState}} (Using OPTIONS)</p>
+            <select ng-model="SelectedState" ng-options="state.Id as state.Description for state in States" ng-change="SelectState()">
+            </select>
+
+            <p>Selected city is : {{SelectedCity}} (Using OPTIONS)</p>
+            <select ng-model="SelectedCity" ng-options="city.Id as city.Description for city in Cities"></select>
+
+            <hr>
+
+            <p>Selected state is : {{SelectedState}} (Using REPEAT)</p>
+            <select ng-model="SelectedState" ng-change="SelectState()">
+                <option ng-repeat="state in States" value="{{state.Id}}">{{state.Description}}</option>
+            </select>
+
+            <p>Selected city is : {{SelectedCity}} (Using REPEAT)</p>
+            <select ng-model="SelectedCity">
+                <option ng-repeat="city in Cities" value="{{city.Id}}">{{city.Description}}</option>
+            </select>
+
+            <hr>
+
+            <p>
+                <button ng-click="LoadFromDatabase()">Load from Database</button>
+                <button ng-click="ChangeCity()">Change City</button>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
