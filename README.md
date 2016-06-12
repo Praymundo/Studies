@@ -1,5 +1,5 @@
 # Studies
-Studies in general, projects without a definite goal.
+Studies in general.
 
 #Estudos
-Estudos em geral, projetos sem um objetivo definido.
+Estudos em geral.

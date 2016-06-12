@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.web.clientproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
+            <name>TestAgularJS</name>
+        </data>
+        <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1">
+            <library name="angular.js" version="1.5.6">
+                <file localPath="public_html/js/libs/angular.js/angular.js" path="angular.js"/>
+                <file localPath="public_html/js/libs/angular.js/angular.min.js" path="angular.min.js"/>
+            </library>
+            <library name="jquery" version="1.12.4">
+                <file localPath="public_html/js/libs/jquery/jquery.js" path="jquery.js"/>
+                <file localPath="public_html/js/libs/jquery/jquery.min.js" path="jquery.min.js"/>
+            </library>
+        </libraries>
+    </configuration>
+</project>
